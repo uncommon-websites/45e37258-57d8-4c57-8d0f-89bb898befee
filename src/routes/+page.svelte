@@ -52,65 +52,129 @@
   <!-- Industries Section -->
   <section class="py-16 border-b border-gray-100">
     <div class="max-w-[1200px] mx-auto px-6">
-      <div class="flex flex-col md:flex-row gap-12 items-center">
-        <!-- Left: Header Content -->
+      <div class="flex flex-col md:flex-row gap-16 items-start">
+        <!-- Left: Header with Sector List -->
         <div class="w-full md:w-2/5">
-          <h3 class="text-sm font-medium text-gray-500 uppercase tracking-wider mb-4">Trusted Across Indonesia's Critical Industries</h3>
-          <p class="text-gray-600 text-lg">Serving enterprises in 12 sectors that power Indonesia's economy</p>
+          <h2 class="text-3xl md:text-4xl font-medium text-gray-900 mb-4">Trusted across Indonesia's critical industries</h2>
+          <p class="text-gray-600 mb-8">Serving enterprises in 12 sectors that power Indonesia's economy</p>
+          
+          <ul class="space-y-3 text-gray-700">
+            <li class="flex items-center gap-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-primary-600 flex-shrink-0"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Financial Services</span>
+            </li>
+            <li class="flex items-center gap-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-primary-600 flex-shrink-0"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Healthcare</span>
+            </li>
+            <li class="flex items-center gap-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-primary-600 flex-shrink-0"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Manufacturing</span>
+            </li>
+            <li class="flex items-center gap-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-primary-600 flex-shrink-0"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Retail & Hospitality</span>
+            </li>
+            <li class="flex items-center gap-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-primary-600 flex-shrink-0"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Food & Beverage</span>
+            </li>
+            <li class="flex items-center gap-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-primary-600 flex-shrink-0"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Education</span>
+            </li>
+            <li class="flex items-center gap-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-primary-600 flex-shrink-0"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Energy</span>
+            </li>
+            <li class="flex items-center gap-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-primary-600 flex-shrink-0"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Technology</span>
+            </li>
+            <li class="flex items-center gap-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-primary-600 flex-shrink-0"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Fashion</span>
+            </li>
+            <li class="flex items-center gap-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-primary-600 flex-shrink-0"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Agriculture</span>
+            </li>
+            <li class="flex items-center gap-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-primary-600 flex-shrink-0"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Logistics</span>
+            </li>
+            <li class="flex items-center gap-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-primary-600 flex-shrink-0"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Metals & Plastics</span>
+            </li>
+          </ul>
         </div>
         
-        <!-- Right: Industries Grid -->
+        <!-- Right: Client Logos Grid -->
         <div class="w-full md:w-3/5">
-          <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
-        <!-- Industries -->
-        <div class="flex flex-col items-center gap-2 p-4">
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="text-gray-400"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
-          <span class="text-xs font-medium text-gray-600">Financial Services</span>
-        </div>
-        <div class="flex flex-col items-center gap-2 p-4">
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="text-gray-400"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
-          <span class="text-xs font-medium text-gray-600">Healthcare</span>
-        </div>
-        <div class="flex flex-col items-center gap-2 p-4">
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="text-gray-400"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-          <span class="text-xs font-medium text-gray-600">Retail</span>
-        </div>
-        <div class="flex flex-col items-center gap-2 p-4">
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="text-gray-400"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
-          <span class="text-xs font-medium text-gray-600">Hospitality</span>
-        </div>
-        <div class="flex flex-col items-center gap-2 p-4">
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="text-gray-400"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
-          <span class="text-xs font-medium text-gray-600">F&B</span>
-        </div>
-        <div class="flex flex-col items-center gap-2 p-4">
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="text-gray-400"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
-          <span class="text-xs font-medium text-gray-600">Manufacturing</span>
-        </div>
-        <div class="flex flex-col items-center gap-2 p-4">
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="text-gray-400"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
-          <span class="text-xs font-medium text-gray-600">Education</span>
-        </div>
-        <div class="flex flex-col items-center gap-2 p-4">
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="text-gray-400"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-          <span class="text-xs font-medium text-gray-600">Energy</span>
-        </div>
-        <div class="flex flex-col items-center gap-2 p-4">
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="text-gray-400"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
-          <span class="text-xs font-medium text-gray-600">Technology</span>
-        </div>
-        <div class="flex flex-col items-center gap-2 p-4">
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="text-gray-400"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
-          <span class="text-xs font-medium text-gray-600">Fashion</span>
-        </div>
-        <div class="flex flex-col items-center gap-2 p-4">
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="text-gray-400"><path d="M12 2v20M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-          <span class="text-xs font-medium text-gray-600">Agriculture</span>
-        </div>
-        <div class="flex flex-col items-center gap-2 p-4">
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="text-gray-400"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
-          <span class="text-xs font-medium text-gray-600">Logistics</span>
-        </div>
+          <div class="grid grid-cols-3 gap-8">
+            <!-- Logo 1 -->
+            <div class="bg-white rounded-xl border border-gray-200 p-6 flex items-center justify-center aspect-square hover:shadow-md transition-shadow">
+              <div class="w-full h-full flex items-center justify-center">
+                <span class="text-gray-400 text-sm font-medium">Client Logo</span>
+              </div>
+            </div>
+            
+            <!-- Logo 2 -->
+            <div class="bg-white rounded-xl border border-gray-200 p-6 flex items-center justify-center aspect-square hover:shadow-md transition-shadow">
+              <div class="w-full h-full flex items-center justify-center">
+                <span class="text-gray-400 text-sm font-medium">Client Logo</span>
+              </div>
+            </div>
+            
+            <!-- Logo 3 -->
+            <div class="bg-white rounded-xl border border-gray-200 p-6 flex items-center justify-center aspect-square hover:shadow-md transition-shadow">
+              <div class="w-full h-full flex items-center justify-center">
+                <span class="text-gray-400 text-sm font-medium">Client Logo</span>
+              </div>
+            </div>
+            
+            <!-- Logo 4 -->
+            <div class="bg-white rounded-xl border border-gray-200 p-6 flex items-center justify-center aspect-square hover:shadow-md transition-shadow">
+              <div class="w-full h-full flex items-center justify-center">
+                <span class="text-gray-400 text-sm font-medium">Client Logo</span>
+              </div>
+            </div>
+            
+            <!-- Logo 5 -->
+            <div class="bg-white rounded-xl border border-gray-200 p-6 flex items-center justify-center aspect-square hover:shadow-md transition-shadow">
+              <div class="w-full h-full flex items-center justify-center">
+                <span class="text-gray-400 text-sm font-medium">Client Logo</span>
+              </div>
+            </div>
+            
+            <!-- Logo 6 -->
+            <div class="bg-white rounded-xl border border-gray-200 p-6 flex items-center justify-center aspect-square hover:shadow-md transition-shadow">
+              <div class="w-full h-full flex items-center justify-center">
+                <span class="text-gray-400 text-sm font-medium">Client Logo</span>
+              </div>
+            </div>
+            
+            <!-- Logo 7 -->
+            <div class="bg-white rounded-xl border border-gray-200 p-6 flex items-center justify-center aspect-square hover:shadow-md transition-shadow">
+              <div class="w-full h-full flex items-center justify-center">
+                <span class="text-gray-400 text-sm font-medium">Client Logo</span>
+              </div>
+            </div>
+            
+            <!-- Logo 8 -->
+            <div class="bg-white rounded-xl border border-gray-200 p-6 flex items-center justify-center aspect-square hover:shadow-md transition-shadow">
+              <div class="w-full h-full flex items-center justify-center">
+                <span class="text-gray-400 text-sm font-medium">Client Logo</span>
+              </div>
+            </div>
+            
+            <!-- Logo 9 -->
+            <div class="bg-white rounded-xl border border-gray-200 p-6 flex items-center justify-center aspect-square hover:shadow-md transition-shadow">
+              <div class="w-full h-full flex items-center justify-center">
+                <span class="text-gray-400 text-sm font-medium">Client Logo</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
