@@ -52,11 +52,16 @@
   <!-- Industries Section -->
   <section class="py-16 border-b border-gray-100">
     <div class="max-w-[1200px] mx-auto px-6">
-      <div class="text-center mb-12">
-        <h3 class="text-sm font-medium text-gray-500 uppercase tracking-wider mb-4">Trusted Across Indonesia's Critical Industries</h3>
-        <p class="text-gray-600">Serving enterprises in 12 sectors that power Indonesia's economy</p>
-      </div>
-      <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6 items-center justify-items-center">
+      <div class="flex flex-col md:flex-row gap-12 items-center">
+        <!-- Left: Header Content -->
+        <div class="w-full md:w-2/5">
+          <h3 class="text-sm font-medium text-gray-500 uppercase tracking-wider mb-4">Trusted Across Indonesia's Critical Industries</h3>
+          <p class="text-gray-600 text-lg">Serving enterprises in 12 sectors that power Indonesia's economy</p>
+        </div>
+        
+        <!-- Right: Industries Grid -->
+        <div class="w-full md:w-3/5">
+          <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
         <!-- Industries -->
         <div class="flex flex-col items-center gap-2 p-4">
           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="text-gray-400"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
@@ -105,6 +110,8 @@
         <div class="flex flex-col items-center gap-2 p-4">
           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="text-gray-400"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
           <span class="text-xs font-medium text-gray-600">Logistics</span>
+        </div>
+          </div>
         </div>
       </div>
     </div>
